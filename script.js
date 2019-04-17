@@ -12,4 +12,7 @@ elem.addEventListener('click', function() {
   } else {
     count = count + 1;
   };
+
+  // Короткая запись условия if else
+  // count = (count === colors.length - 1) ? 0 : count + 1
 });
